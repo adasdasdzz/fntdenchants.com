@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enchantment Simulator</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
+    <style>
+        body {
+            background-color: #333; /* Dark grey background */
+            color: #fff; /* White text color */
+            font-family: 'Press Start 2P', cursive; /* Use the "Press Start 2P" font */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        #enchantButton {
+            font-size: 20px;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 10px;
+            background-color: #555; /* Slightly lighter grey for the button */
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        #enchantButton:hover {
+            background-color: #777; /* Lighter grey when hovering */
+        }
+        #result {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+        .damage { color: red; }
+        .range { color: blue; }
+        .speed { color: yellow; }
+        .boss-killer { color: green; }
+        .withered { color: reddish-brown; }
+        .puppets-nightmare { color: purple; }
+        .bounded { color: lime; }
+        .shadow { color: grey; }
+        .vengeance { color: orange; }
+    </style>
+</head>
+<body>
+    <div>
+        <button id="enchantButton">Enchant</button>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
